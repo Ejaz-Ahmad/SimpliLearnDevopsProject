@@ -10,7 +10,6 @@
             <include name="*.jar"/>
         </fileset>
     </path>
- 
     <target name="clean" description="delete old files">
         <delete dir="${class.dir}"/>
         <delete dir="${jar.dir}"/>
